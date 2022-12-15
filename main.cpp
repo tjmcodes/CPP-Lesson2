@@ -232,11 +232,11 @@ int main()
 
     if (collision)
     {
-      DrawText("Game Over!", windowDimensions[0]/2, windowDimensions[1]/2, 20, RED);
+      DrawText("Game Over!", windowDimensions[1]/2, windowDimensions[1]/2, 20, RED);
     }
     else if (scarfyData.pos.x >= finishLine) // if scarfy's position is greater than the finish line, you win
     {
-      DrawText("You Win!", windowDimensions[0]/2, windowDimensions[1]/2, 20, RED);
+      DrawText("You Win!", windowDimensions[1]/2, windowDimensions[1]/2, 20, RED);
     }
     else
     {
